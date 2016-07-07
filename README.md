@@ -8,7 +8,7 @@
 - [More resources](#more-resources)
 
 ### Overview ###
-This is a project for a tutorial Microsoft Office Add-in for Excel. It interacts with data in Excel 2013 via Office.js, and renders a funnel chart on D3.js. This tutorial has been modified to use TypeScript, you can find the original [here](https://github.com/OfficeDev/Office-Apps/tree/master/FunnelChart).
+This is a project for a tutorial Microsoft Office Add-in for Excel. It interacts with data in Excel 2013 via Office.js, and renders a funnel chart on D3.js. This tutorial has been modified to use TypeScript. You can find the original [here](https://github.com/OfficeDev/Office-Apps/tree/master/FunnelChart).
  
 
 ### Structure of the source code ###
@@ -32,6 +32,8 @@ App.css  |  This file defines common styles for the add-in.
 d3-funnel-charts.ts  | This file contains the logic for creating an SVG visualization from data provided.
 scripts  | This folder contains all the files to handle UX & functional logic.
 themes  | This folder contains all the theme thumbnails and styles, and a JSON file that defines the theme properties.
+typings | This folder contains TypeScript [type declarations](https://blogs.msdn.microsoft.com/typescript/2016/06/15/the-future-of-declaration-files/) which allow you to get type coverage for JavaScript libraries
+js | This folder contains the output JavaScript of your TypeScript compilation. You shouldn't need to look at these files.
 
 ### APIs and libraries ###
 For more details of d3-funnel-charts visualization, go to the [GitHub page](https://github.com/smilli/d3-funnel-charts)
