@@ -21,7 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
-    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>1.9</TypeScriptToolsVersion>
     <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -61,6 +61,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js\App.js" />
+    <Content Include="js\AppConfig.js" />
+    <Content Include="js\d3-funnel-charts.js" />
+    <Content Include="js\Home\Home.js" />
     <Content Include="Scripts\require.js" />
     <Content Include="tsconfig.json" />
     <None Include="Web.Debug.config">
@@ -75,7 +79,6 @@
     <TypeScriptCompile Include="App\App.ts" />
     <Content Include="App\Home\Home.css" />
     <Content Include="App\Home\Home.html" />
-    <TypeScriptCompile Include="App\AppConfig.ts" />
     <TypeScriptCompile Include="App\Home\Home.ts" />
     <Content Include="Content\Office.css" />
     <Content Include="Images\Close.png" />
@@ -355,9 +358,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App\js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
