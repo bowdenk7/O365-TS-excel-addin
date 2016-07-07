@@ -34,6 +34,7 @@ scripts  | This folder contains all the files to handle UX & functional logic.
 themes  | This folder contains all the theme thumbnails and styles, and a JSON file that defines the theme properties.
 typings | This folder contains TypeScript [type declarations](https://blogs.msdn.microsoft.com/typescript/2016/06/15/the-future-of-declaration-files/) which allow you to get type coverage for JavaScript libraries
 js | This folder contains the output JavaScript of your TypeScript compilation. You shouldn't need to look at these files.
+tsconfig.json | This is where you can configure the settings of your TypeScript compilation. 
 
 ### APIs and libraries ###
 For more details of d3-funnel-charts visualization, go to the [GitHub page](https://github.com/smilli/d3-funnel-charts)
