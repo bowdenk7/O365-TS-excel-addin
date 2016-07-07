@@ -4,7 +4,7 @@
     "noImplicitAny": true,
     "sourceMap": false,
     "target": "es5",
-    "outDir": "App/js"
+    "outDir": "js"
   },
     "exclude": [
         "node_modules"
