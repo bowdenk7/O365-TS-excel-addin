@@ -1,4 +1,4 @@
-## Funnel Tutorial Add-in for Microsoft Office ##
+## Funnel Tutorial Add-in for Microsoft Office with TypeScript##
 
 ####Table of Contents####
 - [Overview](#overview)
@@ -8,7 +8,7 @@
 - [More resources](#more-resources)
 
 ### Overview ###
-This is a project for a tutorial Microsoft Office Add-in for Excel. It interacts with data in Excel 2013 via Office.js, and renders a funnel chart on D3.js.
+This is a project for a tutorial Microsoft Office Add-in for Excel. It interacts with data in Excel 2013 via Office.js, and renders a funnel chart on D3.js. This tutorial has been modified to use TypeScript, you can find the original [here](https://github.com/OfficeDev/Office-Apps/tree/master/FunnelChart).
  
 
 ### Structure of the source code ###
@@ -22,14 +22,14 @@ FunnelWeb
 
 Name  | Description
 ------------- | -------------
-App  |  This folder contains all of the code for the Home page, the visualization, and the add-in CSS and JavaScript.
-App/Home  |  This folder contains the code for the Home html page, as well as all of the JavaScript logic for the add-in.
+App  |  This folder contains all of the code for the Home page, the visualization, and the add-in CSS and TypeScript.
+App/Home  |  This folder contains the code for the Home html page, as well as all of the TypeScript logic for the add-in.
 Scripts  | This folder contains the jquery and Office.js files necessary to run the code and use the Office API.
 Home.html  |  This file contains references to all of the necessary js and css files, and it lays out the elements seen when the add-in is run.
-Home.js  |  This file contains all of the specific logic for this add-in, including inserting sample data, retrieving selected data, parsing data to create the visualization, and custom settings.
-App.js  |  This file defines the notification messages in the add-in.
+Home.ts  |  This file contains all of the specific logic for this add-in, including inserting sample data, retrieving selected data, parsing data to create the visualization, and custom settings.
+App.ts  |  This file defines the notification messages in the add-in.
 App.css  |  This file defines common styles for the add-in.
-d3-funnel-charts.js  | This file contains the logic for creating an SVG visualization from data provided.
+d3-funnel-charts.ts  | This file contains the logic for creating an SVG visualization from data provided.
 scripts  | This folder contains all the files to handle UX & functional logic.
 themes  | This folder contains all the theme thumbnails and styles, and a JSON file that defines the theme properties.
 
